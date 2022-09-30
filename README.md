@@ -1,7 +1,7 @@
 # TioHax-Cheat-Menu
 This is a Cheat Client for Gats.io, which I have now stopped working on.
 
-# how to build:
+# how to build: (needs java)
 1) make changes to input.js
 2) run compile.bat and wait
 3) if an error appears, fix it and go to step 2
