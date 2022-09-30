@@ -1,0 +1,13 @@
+Aimbot (with a whitelist and optional toggles for: lag compensation, acceleration, aim smoothing, cursor proximity and ignore chatting)
+Static visuals (removes hud and player health animations)
+Modified camera (camera fix and zoom)
+Reload spin (when you reload you spin automatically)
+Extensive Chat Scroller (Similar to Nitrogem's Chat Scroller)
+No Unload Popup (It is very annoying)
+Chat Binds (E & Z => medic call and "poot dispenser here")
+Auto Medkit Thanking (When you get healed by a medkit you automatically thank the person who dropped it)
+On Kill and On Death Messages (when you die or get a kill it says "i just killed/died to [ENEMY]")
+Automatic Reload (automatically reloads when the cheat deems it safe to do so)
+Revealing invisible stuff, including: Landmines, Camo players, Silencer bullets
+Showing Health, Armor and (Max)Ammo of other players
+Auto Upgrade Cheat and Menu
