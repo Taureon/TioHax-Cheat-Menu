@@ -1880,7 +1880,9 @@ if the user kills someone it levels up and resets the timer
             }
 
             //if we are reloading and that setting is enabled, just spin so hopefully the enemy doesnt see how long it is until we finished reloading
-            if (me.reloading && settings[enums.SETTINGS_RELOADSPIN] && me.reloadingFrame) {
+            //TODO: make the reloading
+            let connection = RF.list[0];
+            if (me.reloading && settings[enums.SETTINGS_RELOADSPIN]/* && (me.reloadingFrame + connection.) */) {
                 let r_1 = Math.PI * Math.random(), r_2 = me.radius + Math.random() * 100;
                 a57({
                     clientX: j13 + (r_2 * Math.sin(r_1)),
