@@ -149,6 +149,7 @@
  * TODO:
  * + fix auto upgrades cheat UI elements
  * + make silencer reveal, camo reveal and landmine reveal toggleable
+ * + configurable distance limit at which cursorproximity aims for you
  * + better acceleration for aimbot (https://math.stackexchange.com/a/4538831/1099868)
  * + finish guide
  * + add line of sight for aimbot
