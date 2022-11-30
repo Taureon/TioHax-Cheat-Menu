@@ -1667,7 +1667,7 @@
         removeChildren(divs.content);
 
         //find out which menu to render
-        //this really doesn't need to be like this but I figured it would make deobfuscation harder
+        //this really doesn't need to be like this but idc
         [   refreshMenuSelect,        refreshMenuGuide,       refreshMenuAimbot,
             refreshMenuESP,           refreshMenuInstantchat, refreshMenuMisc,
             refreshMenuPlayermanager, refreshMenuUpgrades,    refreshMenuScroller,
