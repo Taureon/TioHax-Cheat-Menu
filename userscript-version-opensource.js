@@ -263,8 +263,8 @@
         nullPos = {x: 0, y: 0},
         mathSin = Math.sin(degToRad * 60),
 
-        //whoever I am giving this cheat to so I know who leaked it if it ever gets leaked
-        //clear = dev testing  or public
+        //whoever I am giving this cheat to so I know who leaked it if it ever gets leaked during playtesting
+        //clear = dev testing or public
         DRMuser = '',
 
         idRefreshMenu = 0,
