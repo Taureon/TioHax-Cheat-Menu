@@ -21,7 +21,7 @@
     if (typeof a41 !== 'function') return setTimeout(main);
 
     //these get computed and replaced by the closure compiler
-    //heavily increases obfuscation (prevention of code stealing) while decreasing code size and code complexity
+    //heavily decreases code size
     let enumsCharDict = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_$",
 
         ATTRIBUTE_USERNAMEHASH = enumsCharDict[0],
