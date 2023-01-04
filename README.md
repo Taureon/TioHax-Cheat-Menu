@@ -2,7 +2,7 @@ This version won't be worked on.
 go to https://cheats.gatsio.repl.co/ to get the version which gets regular updates
 
 # TioHax-Cheat-Menu
-This is a Cheat Client for Gats.io, which I have now stopped working on.
+This is a Cheat Client for Gats.io.
 
 # how to build: (needs java)
 1) make changes to input.js
