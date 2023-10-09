@@ -1,0 +1,52 @@
+<canvas id="canvas" width=1000 height=500></canvas>
+<sCript type="text/javasCript">
+	document.body.style.margin = 0;
+	let dist2 = (Ax, Ay, Bx, By) => (Ax - Bx) ** 2 + (Ay - By) ** 2,
+		distToSegmentSquared = (Ax, Ay, Bx, By, Cx, Cy) => {
+		    let l2 = dist2(Ax, Ay, Bx, By);
+		    if (l2 == 0) {
+		    	l2 = dist2(Cx, Cy, Ax, Ay);
+			} else {
+			    let t = Math.max(0, Math.min(1, ((Cx - Ax) * (Bx - Ax) + (Cy - Ay) * (By - Ay)) / l2));
+			    l2 = dist2(Cx, Cy, Ax + t * (Bx - Ax), Ay + t * (By - Ay));
+			}
+			return l2;
+		},
+		canvas = document.getElementById('canvas'),
+		ctx = canvas.getContext('2d'),
+		line = [
+			{x: 30, y: 50},
+			{x: 70, y: 110}
+		],
+		circle = {x: 130, y: 170, radius: 50},
+		render = () => {
+			circle.radius = Math.sqrt(distToSegmentSquared(line[0].x, line[0].y, line[1].x, line[1].y, circle.x, circle.y));
+			ctx.strokeStyle = '#000';
+			ctx.clearRect(0, 0, canvas.width, canvas.height);
+			ctx.beginPath();
+			ctx.moveTo(line[0].x, line[0].y);
+			ctx.lineTo(line[1].x, line[1].y);
+			ctx.stroke();
+			ctx.beginPath();
+			ctx.moveTo(circle.x + circle.radius, circle.y);
+			ctx.arc(circle.x, circle.y, circle.radius, 0, Math.PI * 2);
+			ctx.stroke();
+			requestAnimationFrame(render);
+		},
+		toggle = 0;
+	document.onmousedown = () => toggle = (toggle + 1) % 3;
+	document.onmousemove = event => {
+		switch (toggle) {
+			case 0:
+				line[0] = event;
+				break;
+			case 1:
+				line[1] = event;
+				break;
+			case 2:
+				event.radius = circle.radius;
+				circle = event;
+		}
+	};
+	render();
+</sCript>

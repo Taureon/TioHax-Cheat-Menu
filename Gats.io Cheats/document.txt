@@ -1,0 +1,145 @@
+
+/*
+    DATED- 2022/9/30
+
+    Hey guys, Taureon here.
+    Also known as TheS3xHaver in game.
+
+
+
+    If you made it here, it means you found my cheat software, TioHax Cheat Menu.
+    You are probably asking a few questions, some of which I will hopefully be answering here.
+
+
+
+    Q: Why did you make cheat software?
+    A: Gats.io is really not noob-friendly at all. If you are a new player, you get destroyed by regulars, as in you do not have a chance to play at all since you die in every interaction.
+    Using Vaakir Client made me have fun at the game for once, but I thought Vaakir's public client was incredibly simple,
+    and at roughly the same time I saw how badly obfuscated the game was and took it like the game was challenging me to hack it.
+
+    Q: When did you start hacking gats.io?
+    A: Some days before 2022/7/23, the first things I did was deobfuscate the client by throwing a lots of 'string.replace(regex)' at it with node.js and also looking at greasyfork for what Vaakir did.
+
+    Q: How did you think of the cheat's features?
+    A: For the friends feature, I wanted to be friendly with certain people while making sure I could use my aimbot, for the static hud/health, I just didn't like the fact that it isn't instant.
+    Some features (the ones that you can find greasyfork alternatives to) are inspired by greasyfork scripts.
+
+    Q: Why 'TheS3xHaver'?
+    A: I thought it was a funny name to have unlike 'God0fDeath' or 'SoulOfBrute'
+    But the name 'The Sex Haver' wouldn't work so I had to take some liberties to make sure I could set it to my name.
+    Also I got some funny reactions from others in game like "nice name" or "what the fuck is that name"
+
+    Q: Is anyone else besides you using this cheat?
+    A: Yes, I hand out closure compiled versions with DRM attached to people I trust. The DRM is so when my cheat gets leaked, I figure out who leaked it.
+
+    Q: Why does this Github repo exist then?
+    A: I stopped developing on this cheat (there is a lot of stuff I still wanted to add) and I didn't want it to simply rot on my hard drive.
+    Also I figured I would like other hackers to improve/critique/learn from my code because I am not the only one who develops cheats in gats
+
+    Q: How was developing it?
+    A: It was fun, honestly. It was a fun challenge to work with the limitations of the gats client/server and the patterns of the enemy players!
+    After reading though the source code multiple times, I became a master at how the game worked so I could do technically anything that still abides by game mechanic rules.
+    Of course I had help from those before me (Nitrogem and Vaakir) so I could solve problems better!
+
+    Q: Why did you stop developing it?
+    A: I got IP banned from EU and restarting my router didn't help. I could just test on US but I don't like having a constant 300 ms ping.
+    Also, getting IP banned made me realise how much of my time I am spending on developing this cheat when I had other projects that I also really wanted to work on.
+    I wanted to make singleplayer games, multiplayer games, a weird animation software even, but this cheat managed to get all of my attention I had.
+    So in a weird, unironic, serious way, thank you Dygn for IP banning me, it made me realise what I want to actually do!
+
+    Q: What do you think of it now?
+    A: I think I did a pretty good job, it is objectively the best cheat client since no one else was trying.
+    I wanted it more to be an 'All-In-One' package, the WeChat of gats.io hacking, if you know what reference!
+
+    Q: How was the community to you?
+    A: While there were people who would of course hate me with every fiber of their beings (one guy (Black5heep) insulted me 5 seconds after I started playing on that day,
+    that's a record!), I found people in the Gats.io community that I consider friends now!
+    I even made friends from people that used to hate me. (I love being friendly in Video Games, it gives games such a charm that I sadly don't see anywhere besides TF2)
+
+    Q: Why is this a bookmarklet?
+    A: I don't use or have Tampermonkey, and I just really like bookmarklets compared to browser extensions.
+
+    Q: Your opinion on the game balance?
+    A: Excluding the fact that Shield and Dash exist, I really dislike the very core of the game balance.
+    The fact that you live longer makes you stronger than people who just respawned, meaning this game is one-sided,
+    so I am not surprised there are so many cheaters in this game, and that the game is also very fucking dead.
+
+    Q: Your opinion on cheating?
+    A: I dislike it when people cheat, as in "Download some script they found online", also I like to make fun of them for not having made it themselves.
+    I can respect it if someone makes their own cheats, since that takes skill to do and they are actually hackers,
+    unlike pabloGonzales2008 who figured out how to install Tampermonkey and somehow without installing 10 viruses.
+
+    Q: Your opinion on people who despise cheating and insult cheaters on every possible occasion?
+    A: I just think of them like this: https://youtu.be/s0EFgYOSKrs?t=16
+
+    Q: How did you get to know the hacker group of gats?
+    A: First, a 'Hacker Group' is not as epic as it sounds, I have been in two, and we all just goofed around.
+    Now to actually answer the question: Nitrogem found my post on reddit where I deobfuscated some segment of code that I found funny, and he linked me to vaakir's server,
+    where I made friends with both nitro and vaakir!
+
+    Q: What are your opinions on the gats.io greasyfork userscripts?
+    A: They suck, they really suck so fucking much. Almost all of them have no idea what they are doing and they don't even
+    hook into the main game loop so they are out of sync so much, and that's important.
+    Putting this cheat on Greasyfork is an insult to the cheat and to me.
+
+    Q: Did you hack any game before gats.io?
+    A: Yes! I used to reverse territorial.io, even made a very very simple mod loader for it for me and my gang that I now never talk to anymore...
+    I stopped hacking that game because the dev of t.io used COMPETENT OBFUSCATION METHODS that reset our progress everytime the game got an update, so we got tired of it.
+    I even helped out the dev by providing methods of beating scripting and multiboxing!
+    I have left the territorial.io community because...
+    Well, t.io is a Grand-Strategy Map Game, do I need to say more?
+    If you didn't get it, the main discord server and discord clan servers are filled with ""right wing individuals"".
+
+    Q: What will happen to your clan TACnet?
+    A: Die, probably, unless someone wants ownership, then contact me!
+
+    Q: What will you now be working on?
+    A: Projects that I will be able to share to others without them thinking that I am the worst person to ever exist.
+    You can always ask on my Twitter or on Discord!
+
+    Q: How are we allowed to use this cheat?
+    A: Read the license (which I got from: https://choosealicense.com/licenses/lgpl-3.0/)
+
+    Q: Where is the deobfuscated gats client?
+    A: https://github.com/Taureon/Gats.io-Client-Deobfuscated
+
+
+
+    Infancy state of this cheat:
+    TioHax Cheat Menu started out as a Vaakir Client mod that had the No Camera Movement mod embedded in it.
+    Both mods didn't really get along with each other, which I quickly noticed when I played gats.io on a school computer back when I went to my school, weeks before I left it.
+    The first thing I did was fix the bug that made the gun vibrate when the aimbot and player are aiming at the same time.
+    Then I figured out how to make the tracers different colors, then I found out how to make the camera fix 100% better,
+    and then I figured out how to make the zoom static so I wouldn't have to scroll out all the time.
+
+
+
+    Highlights:
+
+    two from a person who hated me but managed to ffa team with:
+    'friendly fucking cheater, my day' (i was explaining to him that despite my cheats, i wanted to be friendly for the night)
+    'AIMBOTTER USE YOUR HACKS TO DEFEND' (me and a guest were building a base and he was defending it)
+
+    from a particularly salted dude who figured out I exist:
+    'N**** N***** BAD F***** N***** N**** NOOB' (for the record: throwing slurs and insults at a cheater does not make them stop cheating, several people have tried, never worked, try convincing them instead! Almost worked on me once!)
+
+
+
+    If you read through the code, I have added comments specifically for the code explorers. Feel free to read them and to get insight on cheat development!
+
+
+
+    Final Message:
+    Despite me being a cheater that is often hated by many regulars, it was actually a fun experience in the 2 months!
+    I have made some friends in game by being friendly to them and by lots of talking at the middle of the night!
+    (I love the friendly energy that can come from multiplayer games with in game chat, this is why multiplayer
+    gaming peaked with TF2, GMod and lots of other source games. https://twitter.com/DUSKdev/status/1567644009245310976)
+    I even made friends outside the game in a gats community discord, and I had lots of fun (and also lots of anger)
+    interacting with everyone.
+
+
+
+    This is about it.
+    If you read through all that, thank you for taking your time.
+    Good luck on your future endeavours!
+*/
